@@ -1,0 +1,63 @@
+.center {
+    margin: 200px 400px;
+}
+
+h1 {
+    margin-left: 200px;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    margin-left: 100px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 200px;
+    margin-left: 160px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: rgb(53, 167, 110);
+    cursor: pointer;
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(53, 167, 110);
+}
+
+a:hover {
+    color: #8bb881;
+}
+
+.logIn {
+    margin-left: 230px;
+}
+
+p {
+    margin-left: 100px;
+    color: red;
+}
+
+.registrationSucceed {
+    color: green;
+}
